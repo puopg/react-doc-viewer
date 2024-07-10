@@ -35,9 +35,7 @@ var PDFNavArrow = function (props) {
 };
 exports.DownloadPDFIcon = function (props) {
     var color = props.color, size = props.size, reverse = props.reverse;
-    return (react_1.default.createElement("svg", { width: size || "100%", height: size || "100%", style: { transform: "" + (reverse ? "rotate(180deg)" : "") }, id: "Layer_1", viewBox: "0 0 24 24" },
-        react_1.default.createElement("path", { d: "M20.57,9.43A8,8,0,0,0,5.26,10,5,5,0,1,0,5,20h5V18H5a3,3,0,0,1,0-6,3.1,3.1,0,0,1,.79.12l1.12.31.14-1.15a6,6,0,0,1,11.74-.82l.15.54.54.16A3.46,3.46,0,0,1,22,14.5,3.5,3.5,0,0,1,18.5,18H16v2h2.5A5.48,5.48,0,0,0,20.57,9.43Z", fill: color || "#aaa" }),
-        react_1.default.createElement("polygon", { points: "12 11 12 15.59 10.71 14.29 9.29 15.71 13 19.41 16.71 15.71 15.29 14.29 14 15.59 14 11 12 11", fill: color || "#aaa" })));
+    return (react_1.default.createElement("div", { style: { backgroundColor: "red", width: 10, height: 10, borderRadius: "50%" } }, "$"));
 };
 exports.ZoomInPDFIcon = function (props) {
     return react_1.default.createElement(ZoomPDFIcon, __assign({}, props));
